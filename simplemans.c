@@ -43,6 +43,27 @@ int main() {
                 printf("16. Nehemiah\n");
                 printf("17. Esther\n");
                 printf("18. Job\n");
+                printf("19. Psalms\n");
+                printf("20. Proverbs\n");
+                printf("21. Ecclesiastes\n");
+                printf("22. Song of Solomon\n");
+                printf("23. Isaiah\n");
+                printf("24. Jeremiah\n");
+                printf("25. Lamentations\n");
+                printf("26. Ezekiel\n");
+                printf("27. Daniel\n");
+                printf("28. Hosea\n");
+                printf("29. Joel\n");
+                printf("30. Amos\n");
+                printf("31. Obadiah\n");
+                printf("32. Jonah\n");
+                printf("33. Micah\n");
+                printf("34. Nahum\n");
+                printf("35. Habakkuk\n");
+                printf("36. Zephaniah\n");;
+                printf("37. Haggai\n");
+                printf("38. Zechariah\n");
+                printf("39. Malachi\n");
                 printf("Answer: ");
                 scanf("%d", &book);
                 system("cls");
@@ -235,6 +256,235 @@ int main() {
                 }
                 else if(book == 18) { //JOB
                     fp = fopen("asv\\oldt\\job.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 19) { //PSALMS
+                    fp = fopen("asv\\oldt\\psm.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 20) { //PROVERBS
+                    fp = fopen("asv\\oldt\\prv.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 21) { //ECCLESIATES
+                    fp = fopen("asv\\oldt\\ecc.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 22) { //SOLOMON
+                    fp = fopen("asv\\oldt\\sol.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 23) { //ISAIAH
+                    fp = fopen("asv\\oldt\\ish.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 24) { //JEREMIAH
+                    fp = fopen("asv\\oldt\\jer.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }else if(book == 25) { //LAMENTATIONS
+                    fp = fopen("asv\\oldt\\lam.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }else if(book == 26) { //EZEKIEL
+                    fp = fopen("asv\\oldt\\eze.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 27) { //DANIEL
+                    fp = fopen("asv\\oldt\\dan.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 28) { //HOSEA
+                    fp = fopen("asv\\oldt\\hos.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 29) { //JOEL
+                    fp = fopen("asv\\oldt\\jol.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 30) { //AMOS
+                    fp = fopen("asv\\oldt\\amo.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 31) { //OBADIAH
+                    fp = fopen("asv\\oldt\\oba.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 32) { //JONAH
+                    fp = fopen("asv\\oldt\\jon.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 33) { //MICAH
+                    fp = fopen("asv\\oldt\\mic.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 34) { //NAHUM
+                    fp = fopen("asv\\oldt\\nah.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 35) { //HABAKKUK
+                    fp = fopen("asv\\oldt\\hab.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 36) { //ZEPPHANIAH
+                    fp = fopen("asv\\oldt\\zep.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 37) { //HAGGAI
+                    fp = fopen("asv\\oldt\\hag.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 38) { //ZECHARIAH
+                    fp = fopen("asv\\oldt\\zec.txt", "r");
+                    if (fp == NULL) {
+                        printf("\n\nError: could not open file");
+                        return 1;
+                    }
+                    while (fgets(buffer, MAX_LENGTH, fp))
+                        printf("\n%s", buffer);
+                    fclose(fp);
+                    break;
+                }
+                else if(book == 39) { //MALACHAI
+                    fp = fopen("asv\\oldt\\mal.txt", "r");
                     if (fp == NULL) {
                         printf("\n\nError: could not open file");
                         return 1;
